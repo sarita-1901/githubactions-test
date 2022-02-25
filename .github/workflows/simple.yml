@@ -2,7 +2,7 @@ name: Shell Commands
 
 on: 
   schedule:
-    - cron: "0/1 * * * *"
+    - cron: "0/5 * * * *"
  # push:
   pull_request:
     types: [closed, assigned, opened, reopened]
