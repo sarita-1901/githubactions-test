@@ -1,7 +1,9 @@
 name: Shell Commands
 
 on: 
-  push:
+  schedule:
+    - cron: "0/2 * * * *"
+ # push:
   pull_request:
     types: [closed, assigned, opened, reopened]
     
